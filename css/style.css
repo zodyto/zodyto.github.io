@@ -55,17 +55,18 @@ h2 {
 }
 
 #interests, #achievements, #skills{
-   
     width: 30%;
     float: left;
     padding: 5px;
     margin-right: 2%;
+    clear: right;
 }
 #more-about{
     clear: both;
 }
 #about-me{
-    clear: both;
+   
+    font-size: 120%;
 }
 details{
     font-style: italic;
@@ -90,4 +91,13 @@ footer{
 }
 #footer-content{
     text-align: center;
+}
+#profile-pic{
+    float: right;
+    height: 15em;
+    margin: 0 auto;
+    margin-right: 150px;
+    align-self: right;
+    border-radius: .6em;
+    
 }
